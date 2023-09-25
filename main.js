@@ -39,7 +39,7 @@ function recAddNumberSum(n) {
 // 1. function scr rekursif u/ menampilkan hasil factorial dari n
 function recFactorial(n) {
     // base case
-    if (n === 1) {
+    if (n === 0 || n === 1) {
         return 1;
     }
     // recursive case, 5! = 5 * 4!
